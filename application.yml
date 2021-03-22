@@ -18,3 +18,10 @@ management:
     web:
       exposure:
         include: "*"
+
+spring:
+  data:
+    mongodb:
+      host: ${MONGO_DB_HOST_URL:127.0.0.1}
+      port: ${MONGO_DB_HOST_PORT:27017}
+      authentication-database: admin
