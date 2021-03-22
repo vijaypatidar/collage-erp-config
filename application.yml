@@ -1,5 +1,5 @@
 keycloak:
-  auth-server-url: http://localhost:8180/auth
+  auth-server-url: ${AUTH_SERVER_URL:http://localhost:8180/auth}
   realm: CollageERP
   resource: collage-erp-web
   public-client: true
