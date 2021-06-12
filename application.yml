@@ -22,6 +22,7 @@ management:
 spring:
   data:
     mongodb:
-      host: ${MONGO_DB_HOST_URL:127.0.0.1}
-      port: ${MONGO_DB_HOST_PORT:27017}
+#       host: ${MONGO_DB_HOST_URL:127.0.0.1}
+#       port: ${MONGO_DB_HOST_PORT:27017}
+        uri: mongodb+srv://m001-student:5rGzHP4ViTVULyjj@cluster0.evpcl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
       authentication-database: admin
